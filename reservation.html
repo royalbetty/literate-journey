@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<style>
+		 body{
+         background:linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.1),rgba(0,0,0,0)
+            ), url("img/store5.jpg")no-repeat;
+            background-size: cover;
+            margin-bottom: auto;
+        }
+		
+		.box{
+			font-family: latha;
+			border: 2px solid yellow ;
+			width:200px; height:300px;
+			float:left;
+			 font-family: latha;
+            color:white;
+			padding-left: 3px;
+			margin-left:10px;
+			margin-right: 30px;
+			
+		}
+		 .box ul li{
+            width: 120px;
+          /*  text-align: center;*/
+        }  
+		.box ul a{ text-decoration: none;
+			font-size: 22px;
+			color:#E8E4E4;}
+		.box ul :hover{ background-color: yellow;}
+		.box ul a:hover{ color:black;}  
+ 
+		#reservation{ 
+		 border: thin solid yellow;
+		 width:900px;
+		 height:150px;
+		/*position:relative;
+		float:center;
+		background:#1A1A1A; */
+		 margin-left: 240px;
+		  margin-top:30px;
+		 box-shadow:10px 10px 30px gray;
+		 	 }
+	label {color:white; font-size:20px;}
+		fieldset{
+			width:300px; font-size:20px; display:inline-block;
+		}
+	#select-menu{
+		border: thin solid yellow;
+		 width:900px;
+		 height:300px;
+		margin-top: 20px;
+		color:white; text-size:20px
+		}
+		label>button{
+			text-decoration-color:gold;
+		}
+		</style>
+	</head>
+<body>
+	<div class="box">
+    <ul type="none">
+		<li><a href="restaurant.html"> HOME</a></li></p>
+       <li> <a href="menu-r.html"> MENU</a><li></p>
+      <li><a href="reservation.html"> 배달/예약</a><li></p>
+       <li><a href="review2.html"> 후기 </a><li></p>
+		<li><a href=""> 오시는길</a><li></p>
+		<li><a href=""> About us </a><li>
+		 </ul>
+    </div>
+ <div id="reservation">
+<p><label><b>고객성명:</b></label> <input type="text" name="name"></p>
+	<p><label><b>전화번호:<b></label> <input type="tel" name="phone"></p>
+	<p><label><b>이메일 :<b></label> <input type="email" name="email"></p>
+		
+ <div id="select-menu">	
+	 <fieldset>
+	
+	<legend>메뉴고르기 </legend>
+		<p><label><input type="checkbox" name="1box" value="bulgogi"></label>불고기 정식</p>
+		<p><label><input type="checkbox" name="1box" value="porkbelly"></label>삼겹살 정식</p>
+		<p><label><input type="checkbox" name="1box" value="chicken"></label> 간장치킨 정식</p>
+		<p><label><input type="checkbox" name="1box" value="steak"></label>스테이크 정식</p>
+	</fieldset>
+	 <fieldset>
+	<p><b><label>희망배송시간:<input type="time" min="10:00" max="22:30" ></label></b></p>
+	<p><label>배송시 요청사항:<textarea name="comment" maxlength=1000></textarea></label></p>
+	<p><button>주문하기</button></p>
+	 </fieldset>
+</div>
+
+<body>
+	  
+</body>
+</html>
